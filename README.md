@@ -1,18 +1,13 @@
 # VS-Data-Science-and-Machine-Learning
 
 Welcome to the Venture Sky's Data Science and Machine Learning course. Join the gitter lobby to stay updated on what is going on:
-
 https://gitter.im/VS-Data-Science-and-Machine-Learning/Lobby
 
 
-Following is the link for Data Science course:
+Following is the link for Data Science Syllabus course: http://bit.ly/2rAPWSl
 
-https://docs.google.com/document/d/1q6aNENduI45TY0MmhDwYpHPpxOWci1zqp_-PcWo6Jgk/edit
+Following is the link for Machine Learning Syllabus course: http://bit.ly/2QuyuxE
 
-
-Following is the link for Machine Learning course:
-
-https://docs.google.com/document/d/1ZDePBc7Jee_cp8lQhGfv-OBJP6KAuhm7NAzzX_5aFas/edit
 
 The course will be completed in lesser number of classes than shown in the curriculum and that would be decided as per need of students and pace which will get set from first class onwards.
 
