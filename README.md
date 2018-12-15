@@ -20,7 +20,7 @@ Main focus would be to get a native feel of Python and become comfortable with t
 
 
 ## Workshop 1 for DS: IMS Notices Automatic Notification System
-In this workshop, we will first collect email ids of all students interested in a google sheet. We will create a python script that scrapes notices from IMS notice board and if there is a unique entry (new notice not seen before), then a notification along with contents of notice is sent to all the email ids. Then we will deploy this application on a AWS backend (it can be VPS service). We will run a cron job (scheduled task) that runs this script every day.
+In this workshop, we will first collect email ids of all students interested in a google sheet. We will create a python script that scrapes notices from IMS notice board and if there is a unique entry (new notice not seen before), then a notification along with contents of notice is sent to all the email ids. Then we will deploy this application on a AWS backend (it can be any VPS service). We will run a cron job (scheduled task) that runs this script every day.
 
 This entire thing should be concluded in a matter of 4 hours.
 
