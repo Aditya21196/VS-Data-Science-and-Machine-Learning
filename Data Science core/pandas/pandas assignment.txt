@@ -1,0 +1,3 @@
+There is a folder called Mandir Marg in this directory. For your convenience, I am also providing the google drive link to download it: http://bit.ly/2PY2sox
+
+What you have to do is combine all the data from this folder in a single dataframe. Each csv file has a file with a single column called 'value'. Make a new dataframe which holds these 'values' in a separate columns. Each column should be indexed by the name of unique entry it stores like 'BEN', 'CO', 'NOX' etc.
