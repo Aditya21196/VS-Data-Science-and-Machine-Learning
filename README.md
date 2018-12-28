@@ -33,6 +33,7 @@ This entire thing should be concluded in a matter of 4 hours.
 
 I will host the backend on AWS. It can be hosted on Heroku or Digital Ocean or any other VPS. I will use SendGrid API for mailing the unique notices. If you guys feel that there is some aspect of this stack that you would like to explore, then based on public consensus, I will conduct a workshop for that topic too as long as it is related to Python/Data Science/Machine Learning.
 
+#### Edit: The workshop only took two and a half hours. I will upload a tutorial and files explaining the code as well as the resulting script soon.
 
 
 
