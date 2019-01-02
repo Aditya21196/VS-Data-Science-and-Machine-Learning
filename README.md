@@ -35,8 +35,8 @@ I will host the backend on AWS. It can be hosted on Heroku or Digital Ocean or a
 
 #### Edit: The workshop only took two and a half hours. I will upload a tutorial and files explaining the code as well as the resulting script soon.
 
-## Workshop 2 for DS (Tentative): Theoretical Concepts in Data Science 
-In this workshop, I plan to invite someone of CS background adept at theory to teach alongside me. This workshop will probably be of 2 hours and will be accompanied by 2 hours of ML class afterwards. This will be a 4 hour long session in total because this is the last class before holidays end and there are some things that I feel are needed to be covered so if people are unable to turn up after holidays then they will at least have covered these topics.
 
+## Workshop planned for DS (Tentative): Theoretical Concepts in Data Science
+In this workshop, I plan to invite someone of CS background adept at theory to teach alongside me. This workshop will probably be of 2 hours.
 
-Ideas for more workshops are welcome. You can open an issue on this repository or simply post in the gitter lobby, we will consider your proposals. If we don't get any ideas, we will host workshops based off our own judgement. A workshop topic will be chosen if at least 10 or so people are interested in attending it.
+Ideas for more workshops are welcome. You can open an issue on this repository or simply post in the gitter lobby, we will consider your proposals. If we don't get any ideas, we will host workshops based off our own judgement. A workshop topic will be chosen if atleast 10 or so people are interested in attending it.
