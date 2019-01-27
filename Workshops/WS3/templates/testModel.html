@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Model Testing</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+
+</head>
+<body>
+
+  <h1>Select your favorite color: <input type="color" id="favcolor" value="#ff0000"><br><br></h1>
+
+  <div id = "test-div">
+
+    <h1 id = "test-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+
+  </div>
+
+</body>
+
+<script>
+     let color_picker = document.getElementById("favcolor")
+     let textDiv = document.getElementById("test-div")
+     let testText = document.getElementById("test-text")
+
+     color_picker.addEventListener("input",function(event){
+        console.log(event.target.value)
+        textDiv.style.backgroundColor = event.target.value
+        let hexCode = hexToRgb(event.target.value).join("-")
+
+        fetch('/predict/'+hexCode).then(function(response){
+            response.json().then(function(data){
+                let out = data[0]
+
+                if(out == 1){
+                    textDiv.style.color = "white"
+                }else{
+                    textDiv.style.color = "black"
+                }
+            })
+        })
+        
+     })
+    
+
+    function hexToRgb(hex) {
+        var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+        return result ? [
+            parseInt(result[1], 16),parseInt(result[2], 16),parseInt(result[3], 16)
+            ]: null;
+    }
+</script>
+
+</html>

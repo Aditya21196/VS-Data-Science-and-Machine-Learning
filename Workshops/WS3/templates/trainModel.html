@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Model Training</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+
+</head>
+<body>
+
+    <div class="container">
+        <h1 id = "heading">Model Training: Choose backgrounds that best fit the text color.</h1>
+
+        <div class = "div1">
+            <h1 id = "text1" class = "center-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+        </div>
+
+        <div class = "div2">
+            <h1 id = "text2" class = "center-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+        </div>
+
+        <div class = "div3">
+                <button type="button" id = "train-btn">Train Model</button>
+                <button type="button" onclick="window.location.href='{{ url_for('testModel') }}'" id = "test-btn">Test Model</button>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+
+    let d1 = document.getElementsByClassName("div1")[0]
+    let d2 = document.getElementsByClassName("div2")[0]
+
+    let t1 = document.getElementById("text1")
+    let t2 = document.getElementById("text2")
+
+    d1.addEventListener('click',function(event){
+
+        let c = window.getComputedStyle(t1).getPropertyValue("color")
+        let r = c.split('(')[1].split(",")[0].trim()
+        let g = c.split('(')[1].split(",")[1].trim()
+        let b = c.split('(')[1].split(",")[2].split(")")[0].trim()
+
+
+        fetch('/reportBlack/'+ r + "-" + g + "-" + b).then(function(response){
+        response.json().then(function(data){
+
+        let newCol = "rgb("+data[0].toString()+","+data[1].toString()+","+data[2].toString()+")"
+        t1.style.color = newCol
+        t2.style.color = newCol
+
+        })
+      })
+    })
+
+    d2.addEventListener('click',function(event){
+        // do something
+        let c = window.getComputedStyle(t1).getPropertyValue("color")
+        let r = c.split('(')[1].split(",")[0].trim()
+        let g = c.split('(')[1].split(",")[1].trim()
+        let b = c.split('(')[1].split(",")[2].split(")")[0].trim()
+
+
+        fetch('/reportWhite/'+ r + "-" + g + "-" + b).then(function(response){
+        response.json().then(function(data){
+
+        let newCol = "rgb("+data[0].toString()+","+data[1].toString()+","+data[2].toString()+")"
+        console.log(newCol)
+        t1.style.color = newCol
+        t2.style.color = newCol
+
+        })
+      })
+    })
+
+
+    train_btn = document.getElementById("train-btn")
+    train_btn.addEventListener('click',function(event){
+        fetch('/train').then(function(response){
+            response.json().then(function(data){
+                console.log(data[0])
+        })
+      })
+    })
+
+</script>
+</html>
