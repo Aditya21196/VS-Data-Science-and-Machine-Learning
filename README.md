@@ -39,6 +39,12 @@ In this class, we covered the theory about Learning Mechanisms, extended the con
 ## Workshop 2.2: Multilayer Perceptron Models
 In this class, we learnt how to use matrix operations to do calculations of high complexity and how to build Multi Layer Perceptron Models. We also applied our learning to iris dataset from sklearn's datasets.
 
+## Workshop 3: Practical Machine Learning
+We built a black and white classifier which can be trained as well and deployed it using Flask on our own machines. Additionally, we needed to use HTML, JavScript and some CSS scripting but that went fine since most people did comfortably understand the syntax.
+
+## Workshop 4: Webscraping
+We learnt how to mimic GET and POST requests to get html data and how to play around with it by navigating to pages from one page onwards, extracting information from the HTML, storing the information extracted to use for various purposes etc.
+
 ## ML lesson 1: Introduction to Machine Learning
 In this class, we went through the taxonomy of AI and further focused down upon ML. Towards the end, we covered Linear Regression models.
 
