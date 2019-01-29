@@ -33,10 +33,21 @@ This entire thing should be concluded in a matter of 4 hours.
 
 I will host the backend on AWS. It can be hosted on Heroku or Digital Ocean or any other VPS. I will use SendGrid API for mailing the unique notices. If you guys feel that there is some aspect of this stack that you would like to explore, then based on public consensus, I will conduct a workshop for that topic too as long as it is related to Python/Data Science/Machine Learning.
 
-#### Edit: The workshop only took two and a half hours. I will upload a tutorial and files explaining the code as well as the resulting script soon.
+## Workshop 2.1: Neural Networks (Single Layer Perceptron Models)
+In this class, we covered the theory about Learning Mechanisms, extended the concept of AI to mathematical terms and also went through Logistic Regression and Linear Regression. Activation Functions and Error calculation methods were also studied.
 
+## Workshop 2.2: Multilayer Perceptron Models
+In this class, we learnt how to use matrix operations to do calculations of high complexity and how to build Multi Layer Perceptron Models. We also applied our learning to iris dataset from sklearn's datasets.
 
-## Workshop planned for DS (Tentative): Theoretical Concepts in Data Science
-In this workshop, I plan to invite someone of CS background adept at theory to teach alongside me. This workshop will probably be of 2 hours.
+## ML lesson 1: Introduction to Machine Learning
+In this class, we went through the taxonomy of AI and further focused down upon ML. Towards the end, we covered Linear Regression models.
 
-Ideas for more workshops are welcome. You can open an issue on this repository or simply post in the gitter lobby, we will consider your proposals. If we don't get any ideas, we will host workshops based off our own judgement. A workshop topic will be chosen if atleast 10 or so people are interested in attending it.
+## ML lesson 2: Decision Trees and Random Forrest Models
+In this class, we learnt about how decision trees work and then applied the sklearn's in-built implementations on various datasets.
+We also learnt about how Decision Trees are optimized.
+
+## ML lesson 3: Support Vector Machine, Logistic Regression and Classification
+We went through theory behind SVMs and Logistic unit.
+
+## ML lesson 4: All Classification Algorithms
+Some more Classification models were touched upon.
