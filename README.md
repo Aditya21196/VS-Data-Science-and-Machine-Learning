@@ -1,6 +1,6 @@
 # VS-Data-Science-and-Machine-Learning
 
-Welcome to the Venture Sky's Data Science and Machine Learning course. Join the gitter lobby to stay updated on what is going on:
+Welcome to the my Data Science and Machine Learning course. Join the gitter lobby to stay updated on what is going on:
 https://gitter.im/VS-Data-Science-and-Machine-Learning/Lobby
 
 
@@ -29,9 +29,9 @@ In this class, we covered all the data management and visualization techniques n
 ## Workshop 1 for DS: IMS Notices Automatic Notification System
 In this workshop, we will first collect email ids of all students interested in a google sheet. We will create a python script that scrapes notices from IMS notice board and if there is a unique entry (new notice not seen before), then a notification along with contents of notice is sent to all the email ids. Then we will deploy this application on a AWS backend (it can be any VPS service). We will run a cron job (scheduled task) that runs this script every day.
 
-This entire thing should be concluded in a matter of 4 hours.
+This entire thing should be concluded in a matter of 2-4 hours.
 
-I will host the backend on AWS. It can be hosted on Heroku or Digital Ocean or any other VPS. I will use SendGrid API for mailing the unique notices. If you guys feel that there is some aspect of this stack that you would like to explore, then based on public consensus, I will conduct a workshop for that topic too as long as it is related to Python/Data Science/Machine Learning.
+I will host the backend on AWS. It can be hosted on Heroku or Digital Ocean or any other VPS. I will use SendGrid API for mailing the unique notices. If you guys feel that there is some aspect of this stack that you would like to explore, then based on consensus, I will conduct a workshop for that topic too as long as it is related to Python/Data Science/Machine Learning.
 
 ## Workshop 2.1: Neural Networks (Single Layer Perceptron Models)
 In this class, we covered the theory about Learning Mechanisms, extended the concept of AI to mathematical terms and also went through Logistic Regression and Linear Regression. Activation Functions and Error calculation methods were also studied.
@@ -46,7 +46,7 @@ We built a black and white classifier which can be trained as well and deployed 
 We learnt how to mimic GET and POST requests to get html data and how to play around with it by navigating to pages from one page onwards, extracting information from the HTML, storing the information extracted to use for various purposes etc.
 
 ## ML lesson 1: Introduction to Machine Learning
-In this class, we went through the taxonomy of AI and further focused down upon ML. Towards the end, we covered Linear Regression models.
+In this class, we went through the taxonomy of AI and further focused down upon ML. Towards the end, we covered Linear Regression models along with examples.
 
 ## ML lesson 2: Decision Trees and Random Forrest Models
 In this class, we learnt about how decision trees work and then applied the sklearn's in-built implementations on various datasets.
